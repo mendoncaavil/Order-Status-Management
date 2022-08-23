@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    font-family:'Times New Roman', Times, serif
+}
+
+/* .form-control{
+    
+} */
+
+body{
+    background-image: url(background.jpg);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    
+}
+
+
+.main-title{
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+    font-weight: lighter;
+    /* background-color: #FEDDBF; */
+}
+
+.order-search{
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 40px;
+}
+
+#order-id-input{
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+}
+
+.order-status-card{
+    margin: 20px 0;
+    
+}
+
+.order-status-card .card-header{
+    background-color: #006491;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.order-status-card .card-footer{
+    background-color:  #e31837;
+    color: white;
+    border-radius:  0 0 20px 20px;
+}
+
+.order-status-card .card{
+    border-radius: 20px;
+}
+
+#button-addon2{
+    background-color: aqua;
+    color: black;
+    font-size: 1.1rem;
+    width: 8rem;
+}
+
+#button-addon2:hover{
+    background-color: #f32c47; 
+    color: white;
+}
+
+.order-Card-Wrapper{
+    box-sizing: border-box;
+}
