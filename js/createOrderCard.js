@@ -18,8 +18,8 @@ const createOrderCard = (orderID) => {
     cardbody.classList = "card-body";
     cardText1.classList = "card-title";
     cardText2.classList = "card-text";
-    cardText3.classList = "card-text"
-    cardSpan.classList = "badge rounded-pill bg-success";
+    cardText3.classList = "card-text";
+    cardSpan.classList = "badge rounded-pill bg-success status-Text";
     cardFooter.classList = "card-footer";
 
     cardHeader.innerHTML = `Order ID: <b>  ${orderID} </b>`

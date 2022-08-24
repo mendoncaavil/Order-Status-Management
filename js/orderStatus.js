@@ -1,7 +1,7 @@
 const chefReceived = (orderID) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-            document.getElementById(orderID).innerText = 'Chef received the order and started preparing';
+            document.getElementById(orderID).innerText = 'Chef received the order & started preparing';
 			resolve(orderID)
 		}, 2000)
 	})
@@ -73,9 +73,9 @@ const packageReceivedAtCounter = (orderID) => {
 const handedOver = (orderID) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(()=>{
-			document.getElementById(orderID).innerText = 'The order is ready and handed over to the Zomato delivery guy!'
+			document.getElementById(orderID).innerText = 'The order is ready!'
 			resolve(orderID);
-		}, 1000)
+		}, 2000)
 	})
 }
 

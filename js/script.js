@@ -2,8 +2,8 @@ const executeOrder = () => {
     let orderID = document.getElementById("order-id-input").value;
     document.getElementById("order-id-input").value = "";
 
+	if(orderID.length >=1){
     createOrderCard(orderID);
-
     document.getElementById(orderID).innerText = 'Order Placed';
 
     chefReceived(orderID)
@@ -16,9 +16,13 @@ const executeOrder = () => {
 		.then(packageReceivedAtCounter)
 		.then(handedOver)
 		.catch((err) => console.log("error"));
-} 
+	} 
 
+	else{
+		alert("Kindly enter your ORDER ID")
+	}
 
+}
 
 
 
